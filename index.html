@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preview</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <!-- HERO HEADER START -->
+  <header class="relative h-screen bg-stone-50">
+    <!-- Background image -->
+    <div
+      class="absolute inset-0 bg-cover bg-center"
+      style="background-image: url('images/5a48ed0e49a868fe2d0e64bbc7568116.jpg');"
+    ></div>
+
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black/30"></div>
+
+    <!-- Content on top -->
+    <div class="relative container mx-auto py-16 text-center text-white z-10">
+      <nav class="w-full flex justify-between items-center p-4 bg-transparent">
+        <a href="#" class="font-sans text-sm font-semibold">David UI</a>
+        <div class="hidden lg:flex gap-6">
+          <a href="#" class="hover:text-primary">Home</a>
+          <a href="#" class="hover:text-primary">Services</a>
+          <a href="#" class="hover:text-primary">About</a>
+          <a href="#" class="hover:text-primary">Contact</a>
+        </div>
+        <div class="hidden lg:flex gap-2">
+          <button class="py-1.5 px-3 border rounded-md">Sign In</button>
+          <button class="py-2 px-4 bg-stone-800 text-white rounded-lg">Sign Up</button>
+        </div>
+      </nav>
+<br/>
+<br/>
+<br/>
+<br/>
+      <h1 class="text-5xl font-bold mt-20 mb-6 max-w-3xl mx-auto">
+        Our company mission is to lead the web development.
+      </h1>
+
+      <p class="text-lg max-w-xl mx-auto">
+        The time is now for it to be okay to be great.
+      </p>
+    </div>
+  </header>
+  <!-- HERO HEADER END -->
+
+<!-- TRIAL CONTENT START -->
+<section class="bg-stone-100 py-16">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6">Welcome to Our Trial Content</h2>
+    <p class="text-stone-700 mb-12 max-w-2xl mx-auto">
+      This is just some temporary content to see how things look below the hero section. 
+      You can replace it with your real content later.
+    </p>
+
+    <!-- Example cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold mb-2">Feature One</h3>
+        <p class="text-stone-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold mb-2">Feature Two</h3>
+        <p class="text-stone-600">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h3 class="font-semibold mb-2">Feature Three</h3>
+        <p class="text-stone-600">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- TRIAL CONTENT END -->
+
+</body>
+</html>
