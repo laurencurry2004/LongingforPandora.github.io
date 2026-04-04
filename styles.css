@@ -169,6 +169,8 @@
     animation: fadeUp 1s ease-out forwards;
   }
 
+
+/* ---- Hero line animation --- */
   .scroll-line {
     width: 2px;
     height: 85px;
@@ -176,7 +178,8 @@
     margin-bottom: 100px;
   }
 
-  /* Referenced in log */
+/* pulse animation */
+/* Source: JSFiddle. Code Playground Example.  https://jsfiddle.net/g045mwar/ */
 @keyframes pulse {
   0% {
     transform: scale(0.9);
@@ -196,8 +199,9 @@
   animation: pulse 2s ease-in-out infinite;
 }
 
-/* Referenced in log */
-.marquee {
+/* Marquee scrolling effect */
+/* Source: Ben Nadel – Creating a Marquee Effect with CSS Animations. https://www.bennadel.com/blog/4536-creating-a-marquee-effect-with-css-animations.htm */
+	 .marquee {
 			border: 2px solid #181e1f ;
 			display: flex ;
 			overflow: hidden ;
@@ -224,11 +228,7 @@
 			animation-play-state: paused ;
 		}
 
-		/**
-		* BOTH of the marquee items are going to be translating left at the same time.
-		* And, once each of them has translated to -100%, they will both snap back into
-		* place, making it seem as if they are continuously scrolling.
-		*/
+		/* BOTH of the marquee items are going to be translating left at the same time. And, once each of them has translated to -100%, they will both snap back into place, making it seem as if they are continuously scrolling. */
 		@keyframes marquee-content {
 			from {
 				transform: translateX( 0% );
@@ -238,7 +238,8 @@
 			}
 		}
 
-   /* Referenced in log */ 
+/* Fade-up animation */
+/* Source: GitHub Gist – Fade Up Animation. https://gist.github.com/gigabeep/5665413 */
 @keyframes fadeUp {
     0% {
     filter: alpha(opacity=0);
@@ -428,7 +429,10 @@ p {
   background-color: #1c2c3a;
 }
 
-/*Cards*/
+/* ---------------- CARDS ---------------- */
+
+/* Card layout structure */
+/* Source: MDN Web Docs – Card Layout Guide. https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Card */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -492,7 +496,10 @@ p {
 }
 
 
-/* in log referenced */
+/* ---------------- BUTTONS ---------------- */
+
+/* Button styling + hover effects */
+/* Source: W3Schools – CSS Buttons Hover Effects. https://www.w3schools.com/css/css3_buttons_hover.asp */
 .button {
   background-color: transparent;
   text-decoration: none;
@@ -506,6 +513,8 @@ p {
   transition: all 0.2s ease;
 }
 
+/* Button grouping layout */
+/* Source: W3Schools – CSS Button Groups. https://www.w3schools.com/css/css3_buttons_groups.asp */
 .button-group {
   display: flex;
   justify-content: center; /* centers the row */
@@ -591,6 +600,10 @@ p {
   gap: 0;
 }
 
+/* ---------------- NAVIGATION (NEXT/PREV STYLE IDEA) ---------------- */
+
+/* Navigation button inspiration */
+/* Source: W3Schools – Next/Previous Buttons.  https://www.w3schools.com/howto/howto_css_next_prev.asp */
 .nav-footer-btn {
   text-decoration: none;
   padding-top: 60px;
@@ -666,7 +679,13 @@ p {
   margin-left: 180px;
 }
 
-/* green comments are AI copilot - linked in log* --- no comments are me */
+/* Source: 
+	Microsoft Copilot. Conversation with AI Assistant. 2026.
+		https://copilot.microsoft.com/conversations/join/8sKrNGYQDmu6HzSB2qm7y
+	Microsoft Copilot. Conversation with AI Assistant. 2026.
+		https://copilot.microsoft.com/conversations/join/deafghqBM4DENUSGEX55T */
+/* green comments are AI copilot */
+
 .button-container-code {
   display: flex;
   gap: 20px;
@@ -691,6 +710,9 @@ p {
   cursor: pointer;
 }
 
+/* Source: Stack Overflow – Hover Text Solution
+   https://stackoverflow.com/questions/43320315/how-to-show-additional-text-on-hover-using-
+   https://stackoverflow.com/a/15401108 */
 .extra-text {
   display: none;
   position: absolute;       /* removes it from layout flow */
@@ -775,3 +797,9 @@ p {
 .has-subnav:hover .subnav {
   display: block;
 }
+
+/* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
+
+/* General CSS snippets / inspiration */
+/* Source: GitHub Gist
+   https://gist.github.com/marcusstephens/8341939 */
