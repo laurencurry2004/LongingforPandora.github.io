@@ -799,14 +799,17 @@ p {
 }
 
 /* --- citations links --- */
-.citation-link a {
+.citation-link {
   color: #dd33a4;
   text-decoration: none;
 }
 
+.citation-link:visited {
+  color: #dd33a4; 
+}
+
 .citation-link:hover {
   text-decoration: underline;
-  opacity: 0.8;
 }
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
