@@ -492,7 +492,7 @@ p {
 
 .card-link {
   text-decoration: none;
-  color: #dd33a4;
+  color: inherit;
 }
 
 
@@ -799,8 +799,14 @@ p {
 }
 
 /* --- citations links --- */
-a {
-  color: red !important;
+.citation-link a {
+  color: #dd33a4;
+  text-decoration: none;
+}
+
+.citation-link:hover {
+  text-decoration: underline;
+  opacity: 0.8;
 }
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
