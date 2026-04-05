@@ -800,14 +800,7 @@ p {
 
 /* --- citations links --- */
 a {
-  color: #dd33a4;
-  text-decoration: none;
-  border-bottom: 1px solid transparent;
-  transition: all 0.2s ease;
-}
-
-a:hover {
-  border-bottom: 1px solid #dd33a4;
+  color: red !important;
 }
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
