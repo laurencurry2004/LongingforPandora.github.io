@@ -798,6 +798,15 @@ p {
   display: block;
 }
 
+/* --- citations links --- */
+a {
+  color: #dd33a4;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
 
 /* General CSS snippets / inspiration */
