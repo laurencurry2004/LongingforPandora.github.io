@@ -735,7 +735,7 @@ p {
 }
 
 
-/* table source*/
+/* table source
 .table-wrapper {
   margin: 15px 100px 20px;
   overflow-x: auto;
@@ -770,6 +770,7 @@ p {
 .data-table tr:hover {
   background: linear-gradient(135deg, #1e2a35, #111418);
 }
+*/
 
 /* for conclusion */
 .has-subnav {
