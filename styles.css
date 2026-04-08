@@ -829,6 +829,61 @@ p {
   color: #9fb3c8;
 }
 
+.codebook-section {
+  margin: 60px 0;
+}
+
+/* Collapsible container */
+.codebook-block {
+  margin: 20px 180px;
+  border: 1px solid #2f6f7c;
+  background: #111418;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Clickable header */
+.codebook-block summary {
+  cursor: pointer;
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #5be8eb;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+/* Table styling */
+.codebook-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+/* Header row */
+.codebook-table thead th {
+  text-align: left;
+  padding: 12px;
+  color: #dd33a4;
+  border-bottom: 1px solid #dd33a4;
+  font-weight: 600;
+}
+
+/* Table cells */
+.codebook-table td,
+.codebook-table th[scope="row"] {
+  padding: 12px;
+  border-bottom: 1px solid #2a2f36;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Row hover effect */
+.codebook-table tbody tr:hover {
+  background: linear-gradient(135deg, #1e2a35, #111418);
+}
+
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
 
 /* General CSS snippets / inspiration */
