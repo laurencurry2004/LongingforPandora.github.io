@@ -810,6 +810,23 @@ p {
 
 .citation-link:hover {
   text-decoration: underline;
+
+/* ----- citaion styles ---- */
+.references-section {
+  padding: 80px 120px;
+  background: #09161e;
+}
+
+.references-text {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.references-text p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 8px 0;
+  color: #9fb3c8;
 }
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
