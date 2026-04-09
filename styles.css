@@ -675,16 +675,10 @@ p {
   gap: 12px; 
 }
 
+/* ----- quote code buttons ----- */
 .content-wrapper-code {
   margin-left: 180px;
 }
-
-/* Source: 
-	Microsoft Copilot. Conversation with AI Assistant. 2026.
-		https://copilot.microsoft.com/conversations/join/8sKrNGYQDmu6HzSB2qm7y
-	Microsoft Copilot. Conversation with AI Assistant. 2026.
-		https://copilot.microsoft.com/conversations/join/deafghqBM4DENUSGEX55T */
-/* green comments are AI copilot */
 
 .button-container-code {
   display: flex;
@@ -692,13 +686,13 @@ p {
 }
 
 .button-group-code {
-  position: relative;       /* anchor point */
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;  /* button left-aligned */
+  align-items: flex-start;
 }
 
-.button-code {
+.button-group-code summary.button-code {
   width: 70px;
   text-align: center;
   background-color: #181e26;
@@ -708,17 +702,20 @@ p {
   padding: 6px 0;
   border: 1px solid #2f6f7c;
   cursor: pointer;
+  list-style: none;
 }
 
-/* Source: Stack Overflow – Hover Text Solution
-   https://stackoverflow.com/questions/43320315/how-to-show-additional-text-on-hover-using-
-   https://stackoverflow.com/a/15401108 */
+.button-group-code summary.button-code:hover {
+  color: #6feafd;
+  border-color: #6feafd;
+}
+
 .extra-text {
   display: none;
-  position: absolute;       /* removes it from layout flow */
-  top: 40px;                /* sits underneath the button */
-  left: 0;                  /* left-aligned under button */
-  width: 500px;             /* wider hover box */
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 500px;
   background-color: #181e26;
   font-size: 15px;
   font-family: 'Jost', sans-serif;
@@ -730,7 +727,8 @@ p {
   z-index: 10;
 }
 
-.button-group-code:hover .extra-text {
+/* Reveal on click */
+.button-group-code details[open] .extra-text {
   display: block;
 }
 
