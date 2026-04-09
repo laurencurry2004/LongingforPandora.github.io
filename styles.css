@@ -676,6 +676,28 @@ p {
 }
 
 /* ----- quote code buttons ----- */
+/* 
+  QUOTE CODE BUTTONS
+  These buttons display coded tags (e.g. EB2, UD1) beneath each blockquote.
+  Originally built as a hover effect based on:
+    - W3Schools. (n.d.). CSS button groups. https://www.w3schools.com/css/css3_buttons_groups.asp
+    - W3Schools. (n.d.). CSS buttons hover effects. https://www.w3schools.com/css/css3_buttons_hover.asp
+    - Stack Overflow. (2013). Answer to "How to show additional text on hover." https://stackoverflow.com/a/15401108
+      (Provided the specific working solution for displaying additional text on hover 
+      using CSS positioning and display properties)
+    - Microsoft Copilot Conversation 1 — March 26, 2026, 12:30 p.m.
+      Used for CSS styling, layout techniques, animations and structural design ideas.
+      https://copilot.microsoft.com/conversations/join/8sKrNGYQDmu6HzSB2qm7y
+    - Microsoft Copilot Conversation 2 — March 26, 2026, 12:30 p.m.
+      Used to troubleshoot hover effects, layout adjustments, and interactive elements.
+      https://copilot.microsoft.com/conversations/join/deafghqBM4DENUSGEX55T
+
+  Later converted from hover to click-to-reveal using the native HTML <details>/<summary>
+  element, which toggles the [open] attribute on click. The CSS was updated to target
+  details[open] instead of :hover.
+  Source: MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+*/
+
 .content-wrapper-code {
   margin-left: 180px;
 }
