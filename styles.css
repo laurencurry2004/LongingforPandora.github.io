@@ -851,6 +851,53 @@ p {
   color: #9fb3c8;
 }
 
+/* coding for table tags and section labels */
+    .section-title {
+      font-family: 'Jost', sans-serif;
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: #dd33a4;
+      margin: 30px 100px 12px;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+      padding: 2px 7px;
+      border-radius: 3px;
+      margin: 2px 2px 2px 0;
+      white-space: nowrap;
+    }
+
+    .tag-eb { 
+		background: rgba(221,51,164,0.12); 
+		color: #dd33a4; 
+		border: 1px solid rgba(221,51,164,0.3); 
+	}
+
+    .tag-ud {
+		background: rgba(51,160,221,0.1); 
+		color: #5bbde0; border: 1px solid rgba(51,160,221,0.25); 
+	}
+
+    .num { 
+		color: #dd33a4; 
+		font-size: 12px; 
+		font-weight: 500; 
+	}
+
+    .quote-cell { 
+		font-style: italic; 
+		color: #a0b8c4; 
+		max-width: 260px; 
+	}
+
+    .chapter-cell { 
+		color: #7a9aaa; 
+		font-size: 12px;
+	}
+
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
 
