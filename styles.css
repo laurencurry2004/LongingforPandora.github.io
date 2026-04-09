@@ -69,20 +69,9 @@
   }
 
   .hero-image {
-    background-image: url("images/Untitled design.png");
+    background-image: url("untitled-design.png");
     background-size: cover;
     background-position: center;
-}
-
-.hero-image2 {
-    background-image: url("../images/5a48ed0e49a868fe2d0e64bbc7568116.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
- .hero.hero-color {
-  background: #09161e;
-  background-image: none !important;
 }
 
   .hero-overlay {
