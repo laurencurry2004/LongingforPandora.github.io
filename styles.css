@@ -898,6 +898,39 @@ p {
 		font-size: 12px;
 	}
 
+/* ----- collapsable table style 
+Source: W3Schools: Collapsable Table. – https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
+.collapsible {
+  background-color: #09161e;
+  cursor: pointer;
+  padding: 18px 100px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #dd33a4;
+  text-align: left;
+  outline: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #dd33a4;
+  transition: background 0.3s ease;
+}
+
+.collapsible:hover {
+  background: linear-gradient(135deg, #1e2a35, #111418);
+}
+
+.active {
+  background: linear-gradient(135deg, #1e2a35, #111418);
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
 
 /* ---------------- ADDITIONAL CODE REFERENCES ---------------- */
 
