@@ -71,68 +71,50 @@
  
 <br>
   
-/* --- TABLE WRAPPER (keeps responsiveness) --- */
-.table-wrapper {
-  margin: 30px 180px;
-  overflow-x: auto;
-  border: 1px solid #2f6f7c;
-  border-radius: 8px;
-  background: rgba(255,255,255,0.02);
-  backdrop-filter: blur(4px);
-}
-
-/* --- TABLE BASE --- */
-.data-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: 'Jost', sans-serif;
-  color: #c8d8e0;
-}
-
-/* --- HEADER --- */
-.data-table th {
-  text-align: left;
-  padding: 18px 20px;
-  font-size: 14px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #dd33a4;
-  background: rgba(221, 51, 164, 0.08);
-  border-bottom: 1px solid #dd33a4;
-  font-weight: 600;
-}
-
-/* --- BODY CELLS --- */
-.data-table td,
-.data-table th[scope="row"] {
-  padding: 18px 20px;
-  vertical-align: top;
-  font-size: 15px;
-  line-height: 1.7;
-  border-bottom: 1px solid #2a2f36;
-  color: #b7c4cc;
-}
-
-/* --- ROW STRIPING --- */
-.data-table tbody tr:nth-child(even) {
-  background: rgba(255,255,255,0.03);
-}
-
-/* --- HOVER EFFECT (soft glow) --- */
-.data-table tbody tr:hover {
-  background: linear-gradient(135deg, #1e2a35, #111418);
-  box-shadow: inset 0 0 12px rgba(91, 232, 235, 0.25);
-  transition: background 0.25s ease, box-shadow 0.25s ease;
-}
-
-/* --- FIRST COLUMN (code labels) --- */
-.data-table th[scope="row"] {
-  color: #5be8eb;
-  font-weight: 600;
-  letter-spacing: 1px;
-  width: 120px;
-  white-space: nowrap;
-}
+<div class="table-wrapper">
+  <table class="data-table">
+    <thead>
+      <tr>
+        <th>Code</th>
+        <th>Definition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">EB1</th>
+        <td>Adds Everyday Detail: Fan depicts ordinary, day to day life and activities that make Pandora feel lived in, grounded and relatable.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB2</th>
+        <td>Adds Inner Emotion: Fan shows internal feelings, emotional connections, awe, grief, or joy not represented in the film either by the characters in the films or the fans of the films.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB3</th>
+        <td>Fills Narrative Gap: Fan adds details or scenes missing from the canon which deepen understanding or experiences of the characters or Pandora.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB4</th>
+        <td>Extends Cultural Custom: Fan adds depictions of traditions, rituals, or spiritual practices of the Na’vi communities.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB5</th>
+        <td>Extends Language Use: Fan encourages use, teaching, correction, or creative exploration of the Na’vi language.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB6</th>
+        <td>Creates New Environments: Fan adds new physical or social spaces that are not present in the films.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB7</th>
+        <td>Reworks Trauma: Fan explores or resolves emotional and/or traumatic events in the canon of the films.</td>
+      </tr>
+      <tr>
+        <th scope="row">EB8</th>
+        <td>Political Action: Fan connects the world of Pandora to real-world political, environmental, or social issues, or imagines forms of resistance, activism, or systemic change.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
   
 <br>
