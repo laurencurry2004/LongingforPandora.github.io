@@ -68,10 +68,12 @@
     padding-top: 20px;
   }
 
-  .hero-image {
+.hero-image {
     background-image: url("untitled-design.png");
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    position: relative;
 }
 
   .hero-overlay {
