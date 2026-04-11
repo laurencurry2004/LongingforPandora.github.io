@@ -78,6 +78,7 @@
 
 .hero-color {
   background-color: #070f1e;
+  min-height: 100vh;  /* or whatever height you want */
 }
 
   .hero-overlay {
