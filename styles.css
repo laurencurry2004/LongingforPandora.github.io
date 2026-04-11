@@ -76,6 +76,10 @@
     position: relative;
 }
 
+.hero-color {
+  background-color: #070f1e;
+}
+
   .hero-overlay {
     position: absolute;
     top: 0;
